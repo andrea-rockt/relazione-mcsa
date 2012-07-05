@@ -1,21 +1,27 @@
 %%%%%%%%%Gravity Model%%%%%%%%%%%%%%%%
-GravityTypeFlag=0; 		%%(=1 Sets J2 Gravity Model /
+GravityTypeFlag=1; 		%%(=1 Sets J2 Gravity 
+				%% Model
 				%% =0 Sets spherical)
-GravityGradientTorqueFlag=0; 	%%(1=Gravity Gradient Torque ON / 
-				%% 0=Gravity Gradient Torque Off);
+GravityGradientTorqueFlag=1; 	%%( Gravity Gradient 
+				%% Torque 1 = ON 
+				%% 0 = OFF )
 
 %%%%Parameter of the Disturbances%%%%%
-DragForceDisturbancesFlag=0;	%% Drag Force Disturbance Flag
-				%%(0 = Drag Force Disturbance OFF /
-				%% 1 = Drag Force Disturbance ON )
-DragTorquesDisturbancesFlag=0;	%% Drag Torque Disturbance Flag
-				%%(0 = Drag Torque Disturbance OFF /
-				%% 1 = Drag Torque Disturbance ON )
+DragForceDisturbancesFlag=0;	%% Drag Force 
+				%% Disturbance Flag
+				%%(0 = OFF
+				%% 1 = ON )
+DragTorquesDisturbancesFlag=0;	%% Drag Torque 
+				%% Disturbance Flag
+				%%(0 = OFF 
+				%% 1 = ON )
 
 %%%%%%%%%Control Parameters%%%%%%%%%%%
-DragFreeControlFlag=0;		%% Drag Free Control Flag
-				%%(0= Drag Free Control off /
-				%% 1= Drag Free Control On);
-AttitudeControlFlag=0; 		%% Attitude Control Flag
-				%%(0= Attitude Control off /
-				%% 1= Attitude Control On);
+DragFreeControlFlag=0;		%% Drag Free 
+				%% Control Flag
+				%%(0 = OFF
+				%% 1 = ON )
+AttitudeControlFlag=0; 		%% Attitude 
+				%% Control Flag
+				%%(0 = OFF
+				%% 1 = ON )
