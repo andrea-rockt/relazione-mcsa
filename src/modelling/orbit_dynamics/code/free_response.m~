@@ -17,9 +17,11 @@ DragTorquesDisturbancesFlag=0;	%% Drag Torque
 				%% 1 = ON )
 
 %%%%%%%%%Control Parameters%%%%%%%%%%%
-DragFreeControlFlag=0;		%% Drag Free Control Flag
-				%%(0= Drag Free Control off /
-				%% 1= Drag Free Control On);
-AttitudeControlFlag=0; 		%% Attitude Control Flag
-				%%(0= Attitude Control off /
-				%% 1= Attitude Control On);
+DragFreeControlFlag=0;		%% Drag Free 
+				%% Control Flag
+				%%(0 = OFF
+				%% 1 = ON )
+AttitudeControlFlag=0; 		%% Attitude 
+				%% Control Flag
+				%%(0 = OFF
+				%% 1 = ON )

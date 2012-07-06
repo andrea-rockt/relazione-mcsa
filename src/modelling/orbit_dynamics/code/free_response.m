@@ -1,8 +1,8 @@
 %%%%%%%%%Gravity Model%%%%%%%%%%%%%%%%
-GravityTypeFlag=1; 		%%(=1 Sets J2 Gravity 
+GravityTypeFlag=0; 		%%(=1 Sets J2 Gravity 
 				%% Model
 				%% =0 Sets spherical)
-GravityGradientTorqueFlag=1; 	%%( Gravity Gradient 
+GravityGradientTorqueFlag=0; 	%%( Gravity Gradient 
 				%% Torque 1 = ON 
 				%% 0 = OFF )
 
