@@ -7,11 +7,11 @@ GravityGradientTorqueFlag=1; 	%%( Gravity Gradient
 				%% 0 = OFF )
 
 %%%%Parameter of the Disturbances%%%%%
-DragForceDisturbancesFlag=0;	%% Drag Force 
+DragForceDisturbancesFlag=1;	%% Drag Force 
 				%% Disturbance Flag
 				%%(0 = OFF
 				%% 1 = ON )
-DragTorquesDisturbancesFlag=0;	%% Drag Torque 
+DragTorquesDisturbancesFlag=1;	%% Drag Torque 
 				%% Disturbance Flag
 				%%(0 = OFF 
 				%% 1 = ON )
