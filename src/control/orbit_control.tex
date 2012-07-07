@@ -1,3 +1,27 @@
+Blocco funzionale fondamentale dell'architettura di controllo di un satellite è
+il controllo orbitale, tale blocco assolve al compito di cancellare le forze
+non gravitazionali per mantenere il satellite in caduta libera (Drag-Free),
+esistono due principali approcci al controllo drag free:
+
+\begin{description}
+\item[Basato su massa di prova:]  Un corpo di massa piccola (solitamente
+$<1Kg$) viene sospeso libero di muoversi in una gabbia all'interno del satellite
+(la massa di prova è quindi idealmente non soggetta a forze di tipo non
+gravitazionale), si fa quindi in modo che il satellite ``insegua'' la massa ed
+essendo la massa idealmente in caduta libera il satellite tenderà ad essere in
+caduta libera. \'E possibile utilizzare una sola massa di prova.
+\item[Basato su accelerometro:] L'intero satellite è reso drag free effettuando
+misure dirette delle forze non gravitazionali ed attuandolo per compensarle, i
+corpi all'interno del satellite idealmente ``fluttueranno''. \'E possibile
+utilizzare un numero arbitrario di accelerometri per ottenere le misure
+necessarie a rendere il satellite Drag-Free.
+\end{description}
+
+Nel caso specifico preso in esame da questo elaborato si descrive un controllo
+attivo del moto orbitale realizzato a partire da misure fornite da un
+accelerometro in grado di compensare le forze di disturbo (non gravitazionali)
+mediante l'utilizzo mirato dei propulsori.
+
 %###
 \subsection{Architecture and objectives}
 \input{control/orbit_control/architecture_and_objectives.tex}
