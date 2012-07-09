@@ -1,3 +1,44 @@
+
+Per controllo di assetto intendiamo un blocco funzionale dell'architettura di
+controllo responsabile di:
+\begin{itemize}
+  \item Orientamento del veicolo;
+  \item Stabilizzazione del veicolo intorno ad un assetto di riferimento in
+  presenza di coppie perturbanti;
+\end{itemize}
+Tali obiettivi vengono raggiunti dotando il veicolo di sensori di assetto e di
+attuatori correttamente dimensionati.
+Fondamentale per effettuare un controllo di assetto è lo studio delle proprietà
+del veicolo quali:
+\begin{itemize}
+  \item Posizione del Centro Di Massa
+  \item Massa
+  \item Momento di inerzia
+  \item Variazioni dei parametri precedenti dovute a
+  \begin{itemize}
+    \item Consumo di propellente
+    \item Deployment e orientamento di pannelli solari
+    \item Deployment e orientamento di antenne
+  \end{itemize}
+\end{itemize}
+
+\'{E} possibile suddividere il controllo di assetto in diverse fasi:
+\begin{description}
+\item[Orbit insertion:] Modalità impiegata durante l'immissione in orbita da
+parte dell'ultimo stadio del lanciatore
+\item[Acquisition:] Modalità impiegata durante la prima acquisizione
+dell'assetto, consiste nel \emph{damping} della velocità angolare imposta
+dall'ultimo stadio del lanciatore e successivamente nell'acquisizione di un
+assetto tale a soddisfare le caratteristiche termiche ed elettriche necessarie
+all'autonomia del satellite
+\item[Normal:] Modalità impiegata durante le normali missioni consiste nel test
+di tutti gli strumenti e nelle manovre orbitali
+\item[Science:] Modalità impiegata qualora il satellite avesse dei requisiti
+stringenti di precisione a causa di particolari strumenti impiegati in missioni
+di ricerca
+\item[Contingency o Safe:] Modalità impiegata in caso di \emph{failures} per
+mettere in sicurezza il satellite.
+\end{description}
 %###
 \subsection{Architecture and objectives}
 \input{control/attitude_control/architecture_and_objectives.tex}
